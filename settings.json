@@ -1,0 +1,27 @@
+{
+  "window.title": "${rootPath}${separator}${appName}",
+  "workbench.colorTheme": "Atom Material Theme",
+  "workbench.editor.highlightModifiedTabs": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "on",
+  "files.trimTrailingWhitespace": true,
+  "prettier.eslintIntegration": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "smooth",
+  // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
+  // you'll need to change this to an absolute path on your computer
+  "vscode_custom_css.imports": [
+    "/Users/${user}/.vscodestyles.css"
+  ],
+  "editor.renderWhitespace": "all",
+  "files.exclude": {
+    "**/.git": false,
+    "**/.DS_Store": true,
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "editor.tabSize": 2,
+  "explorer.sortOrder": "type",
+  "terminal.integrated.shell.osx": "/bin/zsh"
+}
